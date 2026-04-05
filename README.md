@@ -1,96 +1,117 @@
-> 💬 **Feedback & Support:** Found a bug or have a feature request? Open an issue in the "Issues" tab!
+>🛠️ **Support, Bug Reports & Feature Requests:** [Visit my GitHub Repository](https://github.com/dream-MT/M-IT-DCIM-Pro/discussions)
 
-![M-IT DCIM PRO](https://i.imgur.com/sIPZfge.png)
+![M-IT DCIM PRO](https://i.imgur.com/uyO7u0c.png)
 
-#  M-IT DCIM Enterprise Pro
+#  M-IT DCIM Pro
 **The Future of Data Center Management. Built by an Admin, for Admins.**
 
-> **Note on the Fast-Trial Version:** To guarantee a fast and smooth testing experience, I've excluded the 5+ GB AI databases from this trial version. This allows your test system to be up and running in under a minute!
-> Are you interested in experiencing the full power of our offline AI live in your data center? Feel free to reach out to me directly via the contact form inside the app.
-
-> 💬 **Feedback & Support:** Found a bug or have a feature request? Open an issue in the "Issues" tab!
-
-Dear Admins,
-
-The new M-IT DCIM update (v6.5.4) is here! I have integrated an automatic Update Manager directly into the web interface. To unlock this (along with other new features), please perform a manual update one last time:
-
-Open your `docker-compose.yml` and change the image version to `v6.5.4`.
-
-Run `docker-compose pull` and `docker-compose up -d`.
-
-From now on, you will be conveniently notified of new versions right in your dashboard!
-
-[⬇️ Download M-IT DCIM Quickstart Package (ZIP)](https://www.dropbox.com/scl/fi/m4ubwufg1aoa0vcyxtb3c/m-it-dcim-pro-starter.rar?rlkey=uvnoq9ywf2wmwk0xumuo3r998&st=oj2zkekf&dl=0)
-
-Run the following from PowerShell:
-`docker-compose down -v`
-
-After that, use `M-IT_DCIM_START.bat` (or run `docker-compose up -d` from PowerShell).
-
-**Default preconfigured credentials:**
-User: `admin`    //     Password: `EnterprisePro123!`
-
-## The Story: 20 Years of Data Center Experience in One Software
+## 📖 The Story: 20 Years of Data Center Experience
 Over 20 years ago, my journey began as a DC Field Engineer. Back then, inventory meant endless Excel spreadsheets and hours of manually typing in MAC addresses and serial numbers. From Field Engineer to Senior DC Admin and finally Senior DC Manager, I've worked with the most professional enterprise solutions on the market. However, I always found they lacked crucial functions and day-to-day usability.
 
 The result? After **7,000 hours of development** and over **50,000 lines of code**, *M-IT DCIM Pro* was born. A software that truly understands the daily grind of an admin and radically simplifies it.
 
+> [!IMPORTANT]
+> **Note on the Fast-Trial Version:** To guarantee a fast and smooth testing experience, I've excluded the 5+ GB AI databases from this trial version. This allows your test system to be up and running in under a minute!
+> 
+> Are you interested in experiencing the full power of our **100% offline AI** live in your data center? Feel free to reach out to me directly via the contact form inside the app.
+
 ---
 
-![M-IT DCIM PRO Dashboard](https://i.imgur.com/rBpUhx2.png)
+## 📢 Latest Updates & New Features
 
-![M-IT DCIM PRO Dashboard](https://i.imgur.com/VopMeE7.png)
+### 📱 Mobile Ready & Tablet Workflow
+M-IT DCIM Pro is now fully optimized for **mobile devices**. This enables seamless inventory management directly in front of the physical rack in the data center. 
+* **Field-Inventory:** Use your tablet or smartphone to manage assets on the go.
+* **Camera-Scan (AI Vision):** Use the integrated camera capture to scan hardware nameplates. The AI instantly extracts the serial number, model, and MAC address.
+* **QR Code Tracking:** Every device generates a unique QR code. Print it, stick it on the server, and scan it with your tablet to instantly see its complete lifecycle and networking history!
 
-## Enterprise Features
+### 🔄 Automatic Update Manager
+The new M-IT DCIM update (v6.5.5) is here! I have integrated an automatic Update Manager directly into the web interface. From now on, you will be conveniently notified of new versions right in your dashboard! 
+**To unlock this, please perform a manual update one last time:**
+1. Open your `docker-compose.yml` and change the image version to `v6.5.5`.
+2. Run `docker-compose pull` and `docker-compose up -d`.
+
+---
+
+## 🚀 Quick Start & Download
+
+[⬇️ Download M-IT DCIM Quickstart Package (ZIP)](https://www.dropbox.com/scl/fi/sngmumjt5tb4u5d0ung2x/m-it-dcim-pro-starter.rar?rlkey=101krs6wmpewf9t8ljv26z890&st=0yuexf1a&dl=0)
+
+## 📸 Visual Gallery
+
+**Dashboard & Storage**
+![M-IT DCIM PRO](https://i.imgur.com/rBpUhx2.png)
+
+**Dashboard Slide right**
+![M-IT DCIM PRO](https://i.imgur.com/J6QkAgv.png)
+
+**2D Floorplan & Plan Upload**
+![M-IT DCIM PRO](https://i.imgur.com/VopMeE7.png)
+
+**Run the following from PowerShell (Clean Install):**
+```powershell
+docker-compose down -v
+```
+After that, use `M-IT_DCIM_START.bat` (or run `docker-compose up -d` from PowerShell).
+
+**Default preconfigured credentials:**
+* **User:** `admin`
+* **Password:** `EnterprisePro123!`
+---
+
+## ⚙️ Enterprise Features
 
 ### 3D Digital Twin & Airflow Simulation
 Forget static lists. Drag & drop your assets onto the 2D floor plan, and the system automatically generates an interactive 3D twin of your data center. Includes live airflow simulation and thermal heatmaps!
 
 ### Edge AI Copilot (100% Offline)
 Integrated Artificial Intelligence (LLaMA3) that runs completely without cloud connections. Perfect for Critical Infrastructure (CRITIS) and highly secure environments.
-* Voice-controlled provisioning of servers and VMs.
-* Predictive Maintenance: The AI calculates thermal stress and warns you of hardware failures before they happen.
-* Vision Scanning: Upload a photo of a hardware nameplate, and the AI handles the data extraction.
+* **Voice Control:** Voice-controlled provisioning of servers and VMs.
+* **Predictive Maintenance:** The AI calculates thermal stress and warns you of hardware failures before they happen.
+* **Vision Scanning:** Upload a photo of a hardware nameplate, and the AI handles the data extraction.
 
-**3D Twin & Dependency Mapping:**
+![M-IT DCIM 3D Twin](https://i.imgur.com/uQS4UkM.png)
+
+### SPOF Analysis & Power Patching
+Phase-safe power patching with live alerts. Simulate power outages at the push of a button (Blackout Test) and receive an instant PDF audit of all affected systems.
+
 ![M-IT DCIM 3D Twin](https://i.imgur.com/2PBX305.png)
 
 ### SCADA & Industrial Protocol Engine
 Native support for Modbus TCP, BACnet/IP, and SNMP. Integrate CRAC units, UPS systems, and Smart PDUs directly into your live visualization.
 
-**Network Tracing & P2P Mapping:**
 ![M-IT DCIM Trace](https://i.imgur.com/aMjyBby.png)
-
-### Intelligent Dashboards & Floorplans
-
-**Local AI-Engine (Zero-Trust):**
-![M-IT DCIM Local KI-Engine](https://i.imgur.com/D2Za3a5.png)
-
-**Thermal Heatmap (Live Sensor Data):**
-![M-IT DCIM Thermalmap](https://i.imgur.com/LgW5R1k.png)
-
-**Capacity & Space Planning (Spacemap):**
-![M-IT DCIM Spacemap](https://i.imgur.com/5tJcBLI.png)
-
-**Interactive 3D-Edit Mode:**
-![M-IT DCIM 3D-Edit Mode](https://i.imgur.com/MMuOYXf.png)
-
-**Virtual Machines Management (Proxmox / vCenter Sync):**
-![M-IT DCIM VM Management](https://i.imgur.com/3dbYjiH.png)
-
-**Detailed Hardware Settings:**
-![M-IT DCIM Hardware Settings](https://i.imgur.com/2KTrrbQ.png)
 
 ---
 
-## Installation (Docker Native)
+**Setup**
+![M-IT DCIM Local KI-Engine](https://i.imgur.com/D2Za3a5.png)
+
+**Thermalmap**
+![M-IT DCIM Local KI-Engine](https://i.imgur.com/LgW5R1k.png)
+
+**Spacemap**
+![M-IT DCIM Local KI-Engine](https://i.imgur.com/5tJcBLI.png)
+
+**3D-Edit Mode**
+![M-IT DCIM Local KI-Engine](https://i.imgur.com/MMuOYXf.png)
+
+**Hardware Settings**
+![M-IT DCIM Hardware Settings](https://i.imgur.com/2KTrrbQ.png)
+
+**Virtual Machines Management (ProxMox / VCenter Connect)**
+![M-IT DCIM Hardware Settings](https://i.imgur.com/3dbYjiH.png)
+
+---
+
+## 🛠️ Installation (Docker Native)
 Time is money. Deployment takes less than 1 minute.
 
 This image is the sealed core engine. To run it, you need the official customer release package (`M-IT_DCIM_START.bat` and `docker-compose.yml`), which automatically orchestrates the AI sidecars and databases.
 
 ```text
 ========================================================================
-🚀 M-IT DCIM ENTERPRISE PRO - QUICK START GUIDE
+🚀 M-IT DCIM PRO - QUICK START GUIDE
 ========================================================================
 "The Future of Data Center Management. Built by an Admin, for Admins."
 
