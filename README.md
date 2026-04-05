@@ -39,6 +39,8 @@ The result? After **7,000 hours of development** and over **50,000 lines of code
 
 ![M-IT DCIM PRO Dashboard](https://i.imgur.com/rBpUhx2.png)
 
+![M-IT DCIM PRO Dashboard](https://i.imgur.com/VopMeE7.png)
+
 ## Enterprise Features
 
 ### 3D Digital Twin & Airflow Simulation
