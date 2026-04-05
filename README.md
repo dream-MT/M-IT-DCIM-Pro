@@ -1,6 +1,3 @@
-# M-IT-DCIM-Pro
-Official Issue Tracker &amp; Documentation for M-IT DCIM Pro
-
 ![M-IT DCIM PRO](https://i.imgur.com/sIPZfge.png)
 
 #  M-IT DCIM Enterprise Pro
