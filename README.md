@@ -26,9 +26,9 @@ M-IT DCIM Pro is now fully optimized for **mobile devices**. This enables seamle
 * **QR Code Tracking:** Every device generates a unique QR code. Print it, stick it on the server, and scan it with your tablet to instantly see its complete lifecycle and networking history!
 
 ### 🔄 Automatic Update Manager
-The new M-IT DCIM update (v6.5.5) is here! I have integrated an automatic Update Manager directly into the web interface. From now on, you will be conveniently notified of new versions right in your dashboard! 
+The new M-IT DCIM update (v6.5.6) is here! I have integrated an automatic Update Manager directly into the web interface. From now on, you will be conveniently notified of new versions right in your dashboard! 
 **To unlock this, please perform a manual update one last time:**
-1. Open your `docker-compose.yml` and change the image version to `v6.5.5`.
+1. Open your `docker-compose.yml` and change the image version to `v6.5.6`.
 2. Run `docker-compose pull` and `docker-compose up -d`.
 
 ---
