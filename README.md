@@ -1,6 +1,6 @@
 >🛠️ **Support, Bug Reports & Feature Requests:** [Visit my GitHub Repository](https://github.com/dream-MT/M-IT-DCIM-Pro/discussions)
 
-![M-IT DCIM PRO](https://i.imgur.com/uyO7u0c.png)
+![M-IT DCIM PRO](https://imgur.com/3aYPhz2.png)
 
 #  M-IT DCIM Pro
 **The Future of Data Center Management. Built by an Admin, for Admins.**
