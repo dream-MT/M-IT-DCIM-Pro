@@ -35,7 +35,7 @@ The new M-IT DCIM update (v6.5.6) is here! I have integrated an automatic Update
 
 ## 🚀 Quick Start & Download
 
-[⬇️ Download M-IT DCIM Quickstart Package (RAR)](https://www.dropbox.com/scl/fi/kn3p7pe3cz9765pa68al0/m-it-dcim-pro-starter.rar?rlkey=8nrtivlu809nm8rn4f2emxbiw&st=mfs5wrgd&dl=0)
+[⬇️ Download M-IT DCIM Quickstart Package (RAR)](https://www.dropbox.com/scl/fi/95rl7e3fn1o46xtfap8yg/m-it-dcim-pro-starter.rar?rlkey=lw7vhs87wc8ahzdntdj2vketq&st=63sh9u52&dl=0)
 
 ## 📸 Visual Gallery
 
